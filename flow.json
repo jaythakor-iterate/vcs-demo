@@ -11,7 +11,7 @@
         "type": "http in",
         "z": "cfdf8943.ca44a8",
         "name": "",
-        "url": "/helloWorld",
+        "url": "/test",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
