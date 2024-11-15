@@ -68,8 +68,8 @@
         "timeout": 10000,
         "newThread": false,
         "noerr": 0,
-        "x": 440,
-        "y": 220,
+        "x": 540,
+        "y": 420,
         "wires": [
             [
                 "8f92aba8.98be18"
