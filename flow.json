@@ -63,7 +63,7 @@
         "type": "function",
         "z": "cfdf8943.ca44a8",
         "name": "",
-        "func": "var require = context.global.get('require'); \nnode.warn(\"asfsdfsfgsgsdfgdfg\");\nreturn msg;",
+        "func": "var require = context.global.get('require'); \nnode.warn(\"Hello World\");\nreturn msg;",
         "outputs": 1,
         "timeout": 10000,
         "newThread": false,
