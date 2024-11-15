@@ -11,11 +11,11 @@
         "type": "http in",
         "z": "cfdf8943.ca44a8",
         "name": "",
-        "url": "/helloWorld",
+        "url": "/test1",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 370,
+        "x": 350,
         "y": 320,
         "wires": [
             [
