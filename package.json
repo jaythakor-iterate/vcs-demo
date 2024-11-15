@@ -1,7 +1,7 @@
 {
   "name": "VCSDEMO",
   "description": "A Interplay Project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {},
   "node-red": {
     "settings": {
