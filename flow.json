@@ -7,49 +7,84 @@
         "info": ""
     },
     {
-        "id": "4c3babd8.5b88e4",
+        "id": "cfdf8943.ca44a8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cfdf8943.ca44a8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cfdf8943.ca44a8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cfdf8943.ca44a8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cfdf8943.ca44a8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d08cf55.8b2c708",
         "type": "http in",
         "z": "cfdf8943.ca44a8",
         "name": "",
-        "url": "/helloWorld",
+        "url": "/test",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 370,
-        "y": 340,
+        "x": 270,
+        "y": 200,
         "wires": [
             [
-                "3cf3e432.c2a99c"
+                "568e614e.e48d9"
             ]
         ]
     },
     {
-        "id": "3cf3e432.c2a99c",
+        "id": "568e614e.e48d9",
         "type": "function",
         "z": "cfdf8943.ca44a8",
         "name": "",
-        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello World\";\nreturn msg;",
+        "func": "var require = context.global.get('require'); \n\nreturn msg;",
         "outputs": 1,
         "timeout": 10000,
         "newThread": false,
         "noerr": 0,
-        "x": 590,
-        "y": 340,
+        "x": 440,
+        "y": 220,
         "wires": [
             [
-                "ff3c47b3.e2ac18"
+                "8f92aba8.98be18"
             ]
         ]
     },
     {
-        "id": "ff3c47b3.e2ac18",
+        "id": "8f92aba8.98be18",
         "type": "http response",
         "z": "cfdf8943.ca44a8",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 820,
-        "y": 340,
+        "x": 680,
+        "y": 200,
         "wires": []
     }
 ]
