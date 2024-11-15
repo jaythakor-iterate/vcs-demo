@@ -1,0 +1,55 @@
+[
+    {
+        "id": "527d5630.6a9e98",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "94de3581.d23048",
+        "type": "http in",
+        "z": "527d5630.6a9e98",
+        "name": "",
+        "url": "/helloWorld",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "b532e037.e903b"
+            ]
+        ]
+    },
+    {
+        "id": "b532e037.e903b",
+        "type": "function",
+        "z": "527d5630.6a9e98",
+        "name": "",
+        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello World\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 520,
+        "y": 300,
+        "wires": [
+            [
+                "3832fb17.26bee4"
+            ]
+        ]
+    },
+    {
+        "id": "3832fb17.26bee4",
+        "type": "http response",
+        "z": "527d5630.6a9e98",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 780,
+        "y": 300,
+        "wires": []
+    }
+]
