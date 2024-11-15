@@ -1,9 +1,9 @@
 {
   "projectName": "CUSTOM",
-  "latestVersionDirectory": "1.0.1",
-  "latestVersionNumber": 2,
+  "latestVersionDirectory": "1.0.2",
+  "latestVersionNumber": 3,
   "currentVersionDirectory": "/interplay_v2/flows/projects/VCSDEMO/",
-  "currentVersionNumber": 3,
+  "currentVersionNumber": 4,
   "versionList": [
     {
       "versionNumber": 1,
@@ -24,6 +24,18 @@
       "timeStamp": "2024-11-15T12:05:26.297Z",
       "username": "utsav.shah@ajmerainfotech.com",
       "previousCurrentVersion": 2,
+      "listOfNodes": [
+        "node-red/httpin",
+        "node-red/function"
+      ]
+    },
+    {
+      "versionNumber": 3,
+      "displayText": "Authentication Deploy",
+      "directoryName": "1.0.2",
+      "timeStamp": "2024-11-15T12:41:22.109Z",
+      "username": "utsav.shah@ajmerainfotech.com",
+      "previousCurrentVersion": 3,
       "listOfNodes": [
         "node-red/httpin",
         "node-red/function"
