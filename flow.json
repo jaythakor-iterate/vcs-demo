@@ -24,32 +24,32 @@
         ]
     },
     {
-        "id": "8c59f230.0e17c",
+        "id": "568e614e.e48d9",
         "type": "function",
-        "z": "ff127685.def048",
+        "z": "cfdf8943.ca44a8",
         "name": "",
-        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello World\";\nreturn msg;",
+        "func": "var require = context.global.get('require'); \nnode.warn(\"Hello World\");\nreturn msg;",
         "outputs": 1,
         "timeout": 10000,
         "newThread": false,
         "noerr": 0,
-        "x": 580,
-        "y": 360,
+        "x": 470,
+        "y": 180,
         "wires": [
             [
-                "504b2ca9.c8be24"
+                "8f92aba8.98be18"
             ]
         ]
     },
     {
-        "id": "504b2ca9.c8be24",
+        "id": "8f92aba8.98be18",
         "type": "http response",
-        "z": "ff127685.def048",
+        "z": "cfdf8943.ca44a8",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 840,
-        "y": 360,
+        "x": 680,
+        "y": 200,
         "wires": []
     }
 ]
